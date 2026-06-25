@@ -1,6 +1,6 @@
-# Football 27
+# Football 27 3D
 
-Prototype original de jeu de foot jouable sur téléphone et ordinateur.
+Prototype original de jeu de foot en 3D, jouable sur téléphone et ordinateur.
 
 ## Ouvrir le jeu
 
@@ -10,6 +10,16 @@ Lien GitHub du projet : https://github.com/Mylanseyt-bit/Jeuxclaude
 
 Lien de prévisualisation à tester sur téléphone :
 https://htmlpreview.github.io/?https://github.com/Mylanseyt-bit/Jeuxclaude/blob/main/index.html
+
+## Nouveautés 3D
+
+- Terrain 3D avec lignes, cages et tribunes.
+- Joueurs en volume avec corps, tête, bras et jambes.
+- Animation de course : jambes et bras bougent.
+- Ballon 3D avec rotation.
+- Caméra dynamique qui suit l’action.
+- IA adverse qui court vers le ballon, dribble et tire.
+- Coéquipiers qui se replacent automatiquement.
 
 ## Contrôles
 
@@ -23,7 +33,7 @@ Ce projet est une base originale. Il ne contient pas les logos, joueurs, maillot
 ## Prochaines idées
 
 - Ajouter un mode tournoi.
+- Ajouter des gardiens plus intelligents.
+- Ajouter des passes.
+- Ajouter des vraies animations GLB libres de droits.
 - Ajouter des équipes complètes.
-- Ajouter des gardiens.
-- Ajouter un vrai menu carrière.
-- Ajouter des modèles 3D `.glb` libres de droits.
