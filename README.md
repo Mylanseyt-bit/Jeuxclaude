@@ -1,39 +1,30 @@
-# Football 27 3D
+# Football 3D
 
-Prototype original de jeu de foot en 3D, jouable sur téléphone et ordinateur.
+Prototype de jeu de football 3D jouable dans le navigateur.
 
-## Ouvrir le jeu
+## Lien à ouvrir sur iPhone / navigateur
 
-Le fichier principal est `index.html`.
+Version GLB Three.js :
+https://htmlpreview.github.io/?https://github.com/Mylanseyt-bit/Jeuxclaude/blob/main/football3d-glb.html
 
-Lien GitHub du projet : https://github.com/Mylanseyt-bit/Jeuxclaude
+Fichier HTML source :
+https://github.com/Mylanseyt-bit/Jeuxclaude/blob/main/football3d-glb.html
 
-Lien de prévisualisation à tester sur téléphone :
-https://htmlpreview.github.io/?https://github.com/Mylanseyt-bit/Jeuxclaude/blob/main/index.html
+## Modèles 3D à placer dans le dépôt
 
-## Nouveautés 3D
+Pour que le lien charge les vrais modèles, il faut ajouter ces 3 fichiers dans un dossier `assets/` à la racine du dépôt :
 
-- Terrain 3D avec lignes, cages et tribunes.
-- Joueurs en volume avec corps, tête, bras et jambes.
-- Animation de course : jambes et bras bougent.
-- Ballon 3D avec rotation.
-- Caméra dynamique qui suit l’action.
-- IA adverse qui court vers le ballon, dribble et tire.
-- Coéquipiers qui se replacent automatiquement.
+- `assets/terrain_de_football_de_quartier.glb`
+- `assets/fifa_trionda_ball_world_cup_2026.glb`
+- `assets/3d_rigged_cristiano_ronaldo_al_nassr.glb`
+
+Le terrain fait environ 36 Mo, donc il doit être ajouté depuis l’interface GitHub ou GitHub Desktop. Le HTML est déjà prêt à les charger automatiquement.
 
 ## Contrôles
 
-- iPhone : joystick à gauche, boutons Sprint et Tir à droite.
-- PC : flèches ou ZQSD pour bouger, Shift pour sprinter, Espace pour tirer.
+- iPhone : joystick à gauche, boutons Passe et Tir à droite.
+- PC : Z/W avancer, S reculer, Q/A gauche, D droite, Shift courir, Espace tirer, F ou clic pour passe/petit tir.
 
 ## Important
 
-Ce projet est une base originale. Il ne contient pas les logos, joueurs, maillots, musiques ou licences officielles d’un vrai jeu existant.
-
-## Prochaines idées
-
-- Ajouter un mode tournoi.
-- Ajouter des gardiens plus intelligents.
-- Ajouter des passes.
-- Ajouter des vraies animations GLB libres de droits.
-- Ajouter des équipes complètes.
+Projet original sans nom FIFA, EA Sports, logos officiels ou éléments protégés. Les modèles fournis par l’utilisateur doivent être ajoutés dans `assets/` pour apparaître dans le jeu.
